@@ -1,0 +1,328 @@
+.div1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.div1 .top{
+    width: 1000px;
+    margin: 0 auto;
+    border-right: solid 1px rgba(233, 233, 233, 1);
+    height: 100%;
+}
+.div1 .left{
+    position: relative;
+    float: left;
+    width: 780px;
+    height: 100%;
+    background-image: url("../img/down_bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div1 .left .download{
+    width: 340px;
+    height: 153.5px;
+    background-color: rgba(24, 21, 21, 0.59);
+    /* opacity: 0.4; */
+}
+.div1 .left .download .yonghu_img{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 244px;
+}
+.div1 .left .download .yonghu_div{
+    margin-left: 25px;
+    width: 244px;
+}
+.top_qrcode{
+    width: 101px;
+    height: 97px;
+    float: left;
+}
+.down_btn{
+    width: 120px;
+    height: 35px;
+    float: left;;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.down_btn img{
+
+}
+.div1 .right{
+    position: relative;
+    width: 220px;
+    height:307px;
+    float: left;
+    background: #ffffff;
+}
+.div1 .right .userlogo{
+    width: 100%;
+    height: 140px;
+}
+.div1 .right .userlogo img{
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 76px;
+}
+.div1 .right .userlogo p{
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(160,160,160,1);
+}
+.login_input{
+    width: 194px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid #E7E5E5;
+    padding-left: 8px;
+}
+.login_form input:last-child{
+    margin-top: 10px;
+}
+.login_btn{
+    display: block;
+    text-align: center;
+    background-color: red;
+    color: #ffffff;
+    line-height: 35px;
+    width: 206px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.register_btn{
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.forget_btn{
+    float: right;
+    display: block;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.div2{
+    width: 100%;
+    height: 140px;
+}
+.xuqiu{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.xuqiu .input{
+    width: 270px;
+    height: 70px;
+    margin-top: 45px;
+    float: left;
+    margin-left: 45px;
+}
+.xuqiu .input p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgba(160,160,160,1);
+}
+.xuqiu .input input{
+    width: 225px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+.xiuqiu_btn{
+    margin-top: 45px;
+    margin-right: 13px;
+    float: right;
+    width: 265px;
+    height: 70px;
+    text-align: center;
+    border-radius: 55px;
+    border: solid 1px rgba(223, 221, 221, 0.85)
+}
+.xiuqiu_btn a{
+    margin: 0 auto;
+    margin-top: 7px;
+    display: block;
+    border-radius: 55px;
+    width: 241px;
+    color: white;
+    font-size: 20px;
+    line-height: 55px;
+    background-color: red;
+    height: 55px;
+}
+.div3{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+    overflow: hidden;
+}
+.div3>div{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+.div3 .left{
+    width: 660px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+
+}
+.div3 .right{
+    width: 210px;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.div3 .liucheng{
+    padding-top: 25px;
+    border-right: solid 1px rgba(233,233,233,1);
+}
+.div3 .yonghu_div{
+    width: 270px;
+    height: 115px;
+    margin-top: 15px;
+}
+.div3 .top_qrcode{
+    width: 101px;
+    height: 97px;
+    float: left;
+}
+.div3 .down_btn{
+    width: 120px;
+    height: 35px;
+    float: left;;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+.div3 .yonghu_div a:first-child{
+    margin-top: 3px;
+}
+.div3 .yonghu_div a:last-child {
+    margin-top: 20px;
+}
+.top_ti{
+    width: 100%;
+    height: 50px;
+}
+.top_ti .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.top_ti .title{
+    float: left;
+    line-height: 50px;
+    margin-left: 7px;
+    color: rgba(160,160,160,1);
+}
+.div4{
+    width: 100%;
+    background-color: rgba(245,245,245,1);
+    height: 100%;
+    overflow: hidden;
+}
+.div4>div{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+.div4 .left{
+    width: 660px;
+    /*height: 200px;*/
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.div4 .right{
+    width: 210px;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.top_ti a{
+    float: right;
+    margin-top: 20px;
+}
+.top_ti .more{
+    float: right;
+    margin-top: 20px;
+}
+.div4 .shifu_list{
+    margin-top: 20px;
+    border-right: solid 1px rgba(211,211,211,1);
+}
+.shifu_list .item{
+    width: 295px;
+    height: 105px;
+    margin-right: 5px;
+    float: left;
+}
+.shifu_list .item .shifu_icon{
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    float: left;
+}
+.shifu_list .item .content{
+    float: left;
+    margin-left: 5px;
+    margin-top: -10px;
+    height: 110px;
+}
+.shifu_list .item .auth{
+    height: 32px;
+    line-height: 25px;
+    width: 100%;
+}
+.shifu_list .item .auth span{
+    line-height: 38px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+    color: #6F6C6C;
+}
+.shifu_list .item .renzheng_icon{
+    width: 65px;
+    height: 25px;
+}
+.shifu_list .item .content .line{
+    /*height: 1px;*/
+    /*width: 100%;*/
+    /*display: none;*/
+    margin-top: 6px;
+}
+.shifu_list .item .content .line span{
+    height: 1px;
+    width: 30px;
+    display: block;
+    border-bottom: solid 1px #000000;
+}
+.shifu_list .item .content .phone_no{
+    margin-top: 8px;
+    color: #949393;
+    font-size: 14px;
+}
+.shifu_list .item .content .address{
+    margin-top: 8px;
+    color: #949393;
+    font-size: 14px;
+}
+.shifu_list .item .content .jineng{
+    margin-top: 8px;
+    color: #949393;
+    font-size: 14px;
+}
