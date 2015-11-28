@@ -87,7 +87,7 @@
 .login_btn{
     display: block;
     text-align: center;
-    background-color: red;
+    background-color: rgba(255,90,103,1);
     color: #ffffff;
     line-height: 35px;
     width: 206px;
@@ -155,7 +155,7 @@
     color: white;
     font-size: 20px;
     line-height: 55px;
-    background-color: red;
+    background-color: rgba(255,90,103,1);
     height: 55px;
 }
 .div3{
@@ -419,7 +419,7 @@
     color: white;
     font-size: 20px;
     line-height: 55px;
-    background-color: red;
+    background-color: rgba(255,90,103,1);
     height: 55px;
 }
 .div7{

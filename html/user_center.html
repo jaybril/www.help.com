@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="。">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/user_center.css">
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/layer/layer.js"></script>
+    <script type="text/javascript" src="../assets/js/global.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="header">
+        <div class="logo">
+            <a href="/"><img src="../assets/img/logo.png"></a>
+        </div>
+        <div class="tabbar">
+            <ul class="tab_list">
+                <li><a href="">首页</a></li>
+                <li><a href="">师傅风采</a></li>
+                <li><a href="">成为商家</a></li>
+                <li><a href="">新手指引</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">淘宝商城</a></li>
+            </ul>
+        </div>
+        <div class="isLogin_div" onmouseover="showMyCart()" onmouseout="hideMyCart()">
+            <span class="user_name">陈东东</span>
+            <span class="user_logo_span" ><a><img src="../assets/img/user_logo.png"></a></span>
+            <span class="user_dot"><img src="../assets/img/is_login_dot.png"></span>
+            <div class="mycart-rrow"></div>
+            <ul class="mycart-ul">
+                    <li><a>个人中心</a></li>
+                    <li><a>系统公告</a></li>
+                    <li><a>发布需求</a></li>
+                    <li><a>订单中心</a></li>
+                    <li><a>反馈问题</a></li>
+                    <li><a>安全退出</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!--<div class="shade"></div>-->
+<div class="wrap">
+    <div class="daohang">
+        <p class="user_center_dh">
+            <a>首页</a> /
+            <a>个人中心</a>
+        </p>
+    </div>
+    <div class="user_center_top">
+        <span class="user_top_logo_span"><a><img src="../assets/img/user_logo.png"></a></span>
+        <div class="message">
+            <p>欢迎回来! 亲爱的，吉米</p>
+            <p>您的积分：8888 <a>查询交易记录</a> </p>
+        </div>
+        <div class="wallet">
+            <a class="qb">我的钱包</a>
+            <a class="ye">8886.68 元</a>
+            <a class="cz">+ 充值</a>
+
+        </div>
+    </div>
+    <div class="user_center_contents">
+        <div class="shouhuo">
+            <div class="tou">
+                <p>
+                    <a>选择收货地址</a>
+                </p>
+                <span>新增收货地址</span>
+            </div>
+            <div class="list">
+               <div class="item">
+                   <p class="p1"><span>广州提货点</span>18765522332</p>
+                   <p class="p2">地址：广东省广州市天河区棠下街道梅园新村三部取337号</p>
+                   <p class="p3"><span><a>编辑</a></span><span><a>删除</a></span></p>
+               </div>
+                <div class="item">
+                    <p class="p1"><span>广州提货点</span>18765522332</p>
+                    <p class="p2">地址：广东省广州市天河区棠下街道梅园新村三部取337号</p>
+                    <p class="p3"><span><a>编辑</a></span><span><a>删除</a></span></p>
+                </div>
+                <div class="item">
+                    <p class="p1"><span>广州提货点</span>18765522332</p>
+                    <p class="p2">地址：广东省广州市天河区棠下街道梅园新村三部取337号</p>
+                    <p class="p3"><span><a>编辑</a></span><span><a>删除</a></span></p>
+                </div>
+                <div class="item">
+                    <p class="p1"><span>广州提货点</span>18765522332</p>
+                    <p class="p2">地址：广东省广州市天河区棠下街道梅园新村三部取337号</p>
+                    <p class="p3"><span><a>编辑</a></span><span><a>删除</a></span></p>
+                </div>
+            </div>
+            <div class="more">
+                <p><img src="../assets/img/user_center_more.png"></p>
+            </div>
+        </div>
+        <div class="shangpinku">
+            <div class="tou">
+                <p>
+                    <a>常用商品库</a>
+                </p>
+                <span>新增商品信息</span>
+            </div>
+            <div class="shangpinku_content">
+                <div class="list">
+                    <div class="item">
+                        <a class="cat_bat">柜类</a>
+                        <span class="text">鞋柜</span>
+                        <span class="text">小鞋柜</span>
+                        <span class="text">3立方米</span>
+                        <span class="text">5件</span>
+                        <span class="img">
+                            <img src="../assets/img/gui.png">
+                        </span>
+                        <span class="edit_btn">
+                            <a>编辑</a>
+                            <a>查询</a>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <a class="cat_bat">柜类</a>
+                        <span class="text">鞋柜</span>
+                        <span class="text">小鞋柜</span>
+                        <span class="text">3立方米</span>
+                        <span class="text">5件</span>
+                        <span class="img">
+                            <img src="../assets/img/gui.png">
+                        </span>
+                        <span class="edit_btn">
+                            <a>编辑</a>
+                            <a>查询</a>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <a class="cat_bat">柜类</a>
+                        <span class="text">鞋柜</span>
+                        <span class="text">小鞋柜</span>
+                        <span class="text">3立方米</span>
+                        <span class="text">5件</span>
+                        <span class="img">
+                            <img src="../assets/img/gui.png">
+                        </span>
+                        <span class="edit_btn">
+                            <a>编辑</a>
+                            <a>查询</a>
+                        </span>
+                    </div>
+                    <div class="item">
+                        <a class="cat_bat">柜类</a>
+                        <span class="text">鞋柜</span>
+                        <span class="text">小鞋柜</span>
+                        <span class="text">3立方米</span>
+                        <span class="text">5件</span>
+                        <span class="img">
+                            <img src="../assets/img/gui.png">
+                        </span>
+                        <span class="edit_btn">
+                            <a>编辑</a>
+                            <a>查询</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="foot">
+    <div class="footer">
+        <div class="docLink">
+            <ul>
+                <li><a href="">常见问题</a>|</li>
+                <li><a href="">用户反馈</a>|</li>
+                <li><a href="">使用帮助</a>|</li>
+                <li><a href="">关于我们</a>|</li>
+                <li><a href="">成为师傅</a></li>
+            </ul>
+        </div>
+        <div class="copyRight">
+            <p>2014@ | 广州网科技有限公司 | 粤ICP备案 140925-3 | 版权声明</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

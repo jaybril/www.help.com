@@ -1,0 +1,104 @@
+/*交易记录页面-start*/
+.trade_record_dh{
+    background: url(../../assets/img/user_center_biao.png) no-repeat 0px 0px;
+}
+.trade_record_content{
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #FFFFFF;
+}
+.trade_record_content .item{
+    width: 100%;
+    height: 75px;
+    border-top: solid 1px #D0D0D0;
+}
+.trade_record_content .item:last-child{
+    border-bottom: solid 1px #D0D0D0;
+}
+.trade_record_content .item .left{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 140px;
+    height: 59px;
+    border-right: solid 1px #D0D0D0;
+    text-align: center;
+    float: left;
+}
+.trade_record_content .item .left img{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.trade_record_content .item .right{
+    /*float: right;*/
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.trade_record_content .item .right .time{
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+    display: inline-block;
+}
+.trade_record_content .item .right .money{
+    float: right;
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 25px;
+}
+.trade_record_content .item .right .money b{
+    color: red;
+}
+/*交易记录页面-end*/
+
+/*常见问题页面-start*/
+.question_content{
+    width: 1000px;
+    margin: 0 auto;
+    height: 510px;
+    background-color: #FFFFFF;
+}
+.question_content .left{
+    width: 220px;
+    height: 465px;
+    border-right: solid 1px #CFC9C9;
+    margin-top: 10px;
+    float: left;
+}
+.question_content .left ul {
+    width: 180px;
+    margin-left: 14px;
+    height: 100%;
+    display: block;
+}
+.question_content .left ul li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: solid 1px #BEBEBE;
+    border-bottom: 0;
+}
+.question_content .left ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.question_content .left ul li:last-child {
+    border-bottom: solid 1px #BEBEBE;
+}
+.question_content .left ul li:first-child {
+    background-color: #E4E4E4;
+}
+.question_content .right{
+    margin-top: 10px;
+    width: 750px;
+    float: left;
+    margin-left: 20px;
+}
+.question_content .right p{
+    padding: 10px;
+    color: #666666;
+
+}
+/*常见问题页面-end*/

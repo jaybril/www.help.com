@@ -1,0 +1,237 @@
+.user_center_top{
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255,90,103,1);
+}
+.user_top_logo_span{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border: solid 1px #C8C8C8;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left:60px;
+    float: left;
+}
+.user_top_logo_span img{
+    width: 56px;
+    height: 56px;
+    margin:0 auto;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 50%;
+}
+.user_center_top .message{
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.user_center_top .message p{
+    height: 30px;
+}
+.user_center_top .message a{
+    height: 28px;
+    display: inline-block;
+    width: 110px;
+    border: solid 1px #ffffff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    margin-left: 10px;
+    /* color: #ffffff; */
+    background-color: #ffffff;
+}
+.user_center_top .wallet{
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    margin-top: 35px;
+}
+.user_center_top .wallet .cz{
+    display: inline-block;
+    width: 74px;
+    height: 30px;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+.user_center_top .wallet .qb{
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+.user_center_top .wallet .ye{
+    font-size: 20px;
+    color: yellow;
+    margin-right: 15px;
+}
+.user_center_contents{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.user_center_contents .shouhuo{
+    width: 948px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+ .tou{
+    width: 100%;
+    height: 45px;
+    border-bottom: solid 1px #EAE3E3;
+    overflow: hidden;
+    float: left;
+}
+ .tou p {
+    height: 25px;
+    color: rgba(160,160,160,1);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 25px 0px 0px 25px;
+    float: left;
+    /* width: 170px; */
+    background: url(../../assets/img/user_center_dot.png) no-repeat 0px 0px;
+    display: block;
+    text-indent: 24px;
+}
+.tou span{
+    height: 25px;
+    color: rgba(169, 9, 22, 1);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 25px 0px 0px 25px;
+    float: right;
+
+    display: block;
+
+}
+.shouhuo .list{
+    margin-top: 10px;
+    float: left;
+}
+ .shouhuo .list .item{
+     width: 209px;
+     height: 120px;
+     float: left;
+     border: solid 1px #EAE3E3;
+     margin-right: 15px;
+     padding: 7px;
+ }
+.shouhuo .list .item:last-child{
+    margin-right: 0 ;
+}
+.shouhuo .list .item .p1{
+    height:30px;
+    line-height: 30px;
+
+}
+.shouhuo .list .item .p1 span{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.shouhuo .list .item .p2{
+    line-height: 15px;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 10px;
+}
+.shouhuo .list .item .p3{
+    margin-top: 15px;
+}
+.shouhuo .list .item .p3 span{
+    float: right;
+    padding: 4px;
+}
+.shouhuo .more{
+    width: 1000px;
+    height: 45px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 20px;
+}
+.shouhuo .more p{
+    text-align: center;
+}
+.user_center_contents .shangpinku {
+    width: 948px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.shangpinku_content{
+    width: 100%;
+    float: left;
+    border-bottom: solid 1px #C8C8C8;
+    margin-bottom: 20px;
+    /*margin-top: 20px;*/
+}
+.shangpinku .list{
+    width: 900px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.shangpinku .list .item{
+    border-bottom: solid 1px #C8C8C8;
+    height: 80px;
+    /*line-height: 80px;*/
+}
+.shangpinku .list .item:last-child{
+    border-bottom: 0;
+}
+.cat_bat{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    background-color: #D0D0D0;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 25px;
+    float: left;
+    /*margin-right: 100px;*/
+}
+.shangpinku .text{
+    margin-left: 85px;
+    float: left;
+    margin-top: 36px;
+}
+.shangpinku .img{
+    width: 60px;
+    height: 60px;
+    border: solid 1px #C8C8C8;
+    display: block;
+    margin-top: 10px;
+    margin-left: 80px;
+    float: left;
+    text-align: center;
+}
+.shangpinku .img img{
+    width: 42px;
+    height: 42px;
+    margin-top: 9px;
+}
+.edit_btn{
+    display: inline-block;
+    height: 45px;
+    width: 52px;
+    margin-left: 80px;
+}
+.edit_btn a{
+    margin-top: 16px;
+    display: inline-block;
+}
+
+.user_center_dh{
+    background: url(../../assets/img/user_center_biao.png) no-repeat 0px 0px;
+}
