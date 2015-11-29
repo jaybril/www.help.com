@@ -102,3 +102,30 @@
 
 }
 /*常见问题页面-end*/
+
+
+/*服务协议页面-start*/
+.agreement_content{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+.agreement_content p{
+    padding-left: 30px;
+    padding-right: 85px;
+}
+.agreement_content .title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    /*font-weight: 600;*/
+    color: #6F6767;
+
+}
+.agreement_content .content{
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #6F6767;
+}
+/*服务协议页面-end*/
