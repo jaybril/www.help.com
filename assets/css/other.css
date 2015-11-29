@@ -129,3 +129,163 @@
     color: #6F6767;
 }
 /*服务协议页面-end*/
+
+/*APP介绍页面-start*/
+.app_content{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(24, 21, 21, 0.4);
+    background-image: url("../../assets/img/app_bg.png");
+}
+.app_content .title{
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+.app_content .title span{
+    display: inline-block;
+    padding: 10px;
+    background-color: #D72D03;
+    border-radius: 10px;
+    color: white;
+}
+ .app_download{
+     /*width: 50%;*/
+     height: 155px;
+     float: left;
+     text-align: center;
+     margin-left: 200px;
+}
+.app_content  .app_download:last-child{
+
+    margin-left: 50px;
+}
+ .app_download .yonghu_img{
+     background-color: rgba(24, 21, 21, 0.4);
+     float: left;
+     width: 280px;
+     margin-bottom: 5px;
+}
+.app_download .yonghu_div{
+    width: 280px;
+    height: 118px;
+}
+.app_download:last-child{
+    /*margin-left: 45px;*/
+}
+.top_qrcode{
+    width: 118px;
+    height: 118px;
+    float: left;
+}
+.down_btn{
+    width: 140px;
+    height: 40px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 22px;
+}
+.down_btn img{
+
+}
+/*APP介绍页面-end*/
+
+/*用户反馈-start*/
+.feedback_content{
+    width: 1000px;
+    height: 460px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.feedback_content textarea{
+    width: 600px;
+    height: 265px;
+    margin: 0 auto;
+    border: solid 1px #DDD2D2;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.feedback_content  .submit {
+    margin: 0 auto;
+    width: 265px;
+    height: 70px;
+    text-align: center;
+    border-radius: 55px;
+    border: solid 1px rgba(223, 221, 221, 0.85);
+}
+.feedback_content  .submit a {
+    margin: 0 auto;
+    margin-top: 7px;
+    display: block;
+    border-radius: 55px;
+    width: 241px;
+    color: white;
+    font-size: 20px;
+    line-height: 55px;
+    background-color: rgba(255,90,103,1);
+    height: 55px;
+}
+/*用户反馈-end*/
+
+/*选择支付-start*/
+.pay_content{
+    width: 1000px;
+    height: 360px;
+    margin: 0 auto;
+    background-color: white;
+}
+.pay_content input[type="radio"] {
+    margin: 3px 3px 0px 5px;
+    display: none;
+}
+.pay_radio_label {
+    padding-left: 20px;
+    cursor: pointer;
+    background: url(../../assets/img/pay_no_select_icon.png) no-repeat ;
+    background-position: 0;
+
+}
+.pay_radio_label.checked {
+    background: url(../../assets/img/pay_select_icon.png) no-repeat;
+    /* background-position: left bottom; */
+    width: 25px;
+    height: 25px;
+    background-position: 0;
+}
+.pay_content .pay_list{
+    width: 600px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    /*padding-top: 30px;*/
+    border: solid 1px #8B8B8B;
+    overflow: hidden;
+}
+.pay_content .pay_list .item{
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px #8B8B8B;
+}
+.pay_content .pay_list .item img{
+    vertical-align: middle;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pay_content .pay_list .item .tips{
+    display: inline-block;
+    margin-top: 16px;
+}
+.pay_content .pay_list .item .select_radio{
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+/*选择支付-end*/

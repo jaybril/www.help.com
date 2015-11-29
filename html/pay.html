@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="">
     <meta name="description" content="。">
-    <title>APP介绍</title>
+    <title>选择支付</title>
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/other.css">
     <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
@@ -49,30 +49,42 @@
     <div class="daohang">
         <p class="trade_record_dh">
             <a>首页</a> /
-            <a>APP介绍</a>
+            <a>发布需求</a> /
+            <a>支付</a>
         </p>
     </div>
-    <div class="app_content">
-        <div class="title">
-            <span>我们为你解决最后一公里的烦恼</span>
-        </div>
-        <div class="app_download">
-            <img class="yonghu_img" src="../assets/img/yonghu.png">
-            <div class="yonghu_div">
-                <img class="top_qrcode" src="../assets/img/android.png">
-                <a class="down_btn"><img src="../assets/img/android_btn.png"></a>
-                <a class="down_btn"><img src="../assets/img/iphone_btn.png"></a>
-            </div>
-        </div>
-        <div class="app_download">
-            <img class="yonghu_img" src="../assets/img/shifu.png">
-            <div class="yonghu_div">
-                <img class="top_qrcode" src="../assets/img/android.png">
-                <a class="down_btn"><img src="../assets/img/android_btn.png"></a>
-                <a class="down_btn"><img src="../assets/img/iphone_btn.png"></a>
-            </div>
-        </div>
+    <div class="pay_content">
+        <div class="pay_list">
+            <div class="item">
+                <img src="../assets/img/alipay_icon.png">
+                <span class="tips">
+                    <p>支付宝支付</p>
+                    <p>推荐支付宝用户使用</p>
+                </span>
+                <div class="select_radio">
+                    <input type="radio" id="nba" checked="checked" name="sport" value="nba">
+                    <label class="pay_radio_label" name="nba" class="checked" for="nba"></label>
+                </div>
 
+            </div>
+            <div class="item">
+                <img src="../assets/img/yue_icon.png">
+                <span class="tips">
+                    <p>余额支付</p>
+                    <p>推荐有余额的用户使用</p>
+                </span>
+                <div class="select_radio">
+                    <span>余额：9540.32 </span>
+                    <input type="radio" id="nba" checked="checked" name="sport" value="nba">
+                    <label class="pay_radio_label" name="nba" class="checked" for="nba"></label>
+                </div>
+
+            </div>
+        </div>
+            <!--<input type="radio" id="nba" checked="checked" name="sport" value="nba">-->
+            <!--<label class="pay_radio_label" name="nba" class="checked" for="nba">NBA</label>-->
+            <!--<input type="radio" id="cba" name="sport" value="cba">-->
+            <!--<label class="pay_radio_label" name="cba" for="cba">CBA</label>-->
     </div>
 </div>
 <div class="foot">
@@ -93,3 +105,12 @@
 </div>
 </body>
 </html>
+<script>
+    $(function() {
+        $('.pay_radio_label').click(function(){
+            var radioId = $(this).attr('name');
+            $('.pay_radio_label').removeClass('checked') && $(this).addClass('checked');
+            $('input[type="radio"]').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+        });
+    });
+</script>
