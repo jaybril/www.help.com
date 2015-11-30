@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="。">
+    <title>商品中心</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/require.css">
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/layer/layer.js"></script>
+    <script type="text/javascript" src="../assets/js/global.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="header">
+        <div class="logo">
+            <a href="/"><img src="../assets/img/logo.png"></a>
+        </div>
+        <div class="tabbar">
+            <ul class="tab_list">
+                <li><a href="">首页</a></li>
+                <li><a href="">师傅风采</a></li>
+                <li><a href="">成为商家</a></li>
+                <li><a href="">新手指引</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">淘宝商城</a></li>
+            </ul>
+        </div>
+        <div class="isLogin_div" onmouseover="showMyCart()" onmouseout="hideMyCart()">
+            <span class="user_name">陈东东</span>
+            <span class="user_logo_span" ><a><img src="../assets/img/user_logo.png"></a></span>
+            <span class="user_dot"><img src="../assets/img/is_login_dot.png"></span>
+            <div class="mycart-rrow"></div>
+            <ul class="mycart-ul">
+                <li><a>个人中心</a></li>
+                <li><a>系统公告</a></li>
+                <li><a>发布需求</a></li>
+                <li><a>订单中心</a></li>
+                <li><a>反馈问题</a></li>
+                <li><a>安全退出</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="wrap">
+    <div class="container">
+        <div class="daohang">
+            <p class="trade_record_dh">
+                <a>首页</a> /
+                <a>发布需求</a>
+            </p>
+        </div>
+        <div class="con">
+            <div class="maincon">
+                <div class="coninfo-one">
+                    <div class="one">
+                        <p class="title titleed"><img src="../assets/img/user_center_dot.png" />选择提货地址<a href="javascript:;" class="addaddress" id="addaddress">新增商品信息</a></p>
+                        <div class="search">
+                            <input type="text" class="search-text" placeholder="输入订单号查询订单信息" />
+                            <input type="button" class="search-btn" value="搜索" />
+                        </div>
+                        <table border="0" cellpadding="0" cellspacing="0" class="cotable">
+                            <tr class="firsttr">
+                                <th>商品编号</th>
+                                <th>一级分类</th>
+                                <th>二级分类</th>
+                                <th>名称</th>
+                                <th>体积</th>
+                                <th>件数</th>
+                                <th>照片</th>
+                                <th>操作</th>
+                            </tr>
+                            <tr>
+                                <td>2015114545</td>
+                                <td>巨累</td>
+                                <td>鞋柜</td>
+                                <td>小鞋柜</td>
+                                <td>3立方米</td>
+                                <td>5件</td>
+                                <td class="tdimg">
+                                    <div class="tdimgborder"><img src="../assets/img/require_icon.png"/></div>
+                                </td>
+                                <td class="operation">
+                                    <a href="">编辑</a>
+                                    <a href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2015114545</td>
+                                <td>巨累</td>
+                                <td>鞋柜</td>
+                                <td>小鞋柜</td>
+                                <td>3立方米</td>
+                                <td>5件</td>
+                                <td class="tdimg">
+                                    <div class="tdimgborder"><img src="../assets/img/require_icon.png" /></div>
+                                </td>
+                                <td class="operation">
+                                    <a href="">编辑</a>
+                                    <a href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2015114545</td>
+                                <td>巨累</td>
+                                <td>鞋柜</td>
+                                <td>小鞋柜</td>
+                                <td>3立方米</td>
+                                <td>5件</td>
+                                <td class="tdimg">
+                                    <div class="tdimgborder"><img src="../assets/img/require_icon.png" /></div>
+                                </td>
+                                <td class="operation">
+                                    <a href="">编辑</a>
+                                    <a href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2015114545</td>
+                                <td>巨累</td>
+                                <td>鞋柜</td>
+                                <td>小鞋柜</td>
+                                <td>3立方米</td>
+                                <td>5件</td>
+                                <td class="tdimg">
+                                    <div class="tdimgborder"><img src="../assets/img/require_icon.png" /></div>
+                                </td>
+                                <td class="operation">
+                                    <a href="">编辑</a>
+                                    <a href="">删除</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="share" id="share"></div>
+    <div class="commodity commodityed" id="commodity">
+        <p class="titled">新增商品<span class="close" id="close">×</span></p>
+        <div class="form">
+            <div class="form-list">
+                <label>一级类别</label>
+                <select>
+                    <option>请选择商品类别</option>
+                </select>
+            </div>
+            <div class="form-list">
+                <label>二级类别</label>
+                <select>
+                    <option>请选择商品类别</option>
+                </select>
+            </div>
+            <div class="form-list">
+                <label>商品名称</label>
+                <input type="text" />
+            </div>
+            <div class="form-list">
+                <label>商品体积</label>
+                <input type="text" />
+            </div>
+            <div class="form-list">
+                <label>商品件数</label>
+                <input type="text" />
+            </div>
+            <div class="form-list">
+                <label>照片</label>
+                <span class="file"><input type="file" class="comfile" />+</span>
+            </div>
+        </div>
+        <a href="" class="btn">保存</a>
+    </div>
+</div>
+<div class="foot">
+    <div class="footer">
+        <div class="docLink">
+            <ul>
+                <li><a href="">常见问题</a>|</li>
+                <li><a href="">用户反馈</a>|</li>
+                <li><a href="">使用帮助</a>|</li>
+                <li><a href="">关于我们</a>|</li>
+                <li><a href="">成为师傅</a></li>
+            </ul>
+        </div>
+        <div class="copyRight">
+            <p>2014@ | 广州网科技有限公司 | 粤ICP备案 140925-3 | 版权声明</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $("#addaddress").click(function(){
+        $("#share").show();
+        $("#commodity").show();
+    });
+    $("#share").click(function(){
+        $("#share").hide();
+        $("#commodity").hide();
+    });
+    $("#close").click(function(){
+        $("#share").hide();
+        $("#commodity").hide();
+    });
+</script>

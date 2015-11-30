@@ -2,7 +2,8 @@ body{
     /*width: 1000px;*/
     height: auto;
     margin: 0 auto;
-    font-family: "微软雅黑",tahoma,Arial,"宋体",sans-serif;
+    font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+    font-size: 12px;
     background-color: rgba(245,245,245,1);
 }
 h1, h2, h3, h4, h5, h6, article, section, div, p {

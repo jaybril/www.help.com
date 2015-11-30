@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="。">
+    <title>发布需求（维修）</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/require.css">
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/layer/layer.js"></script>
+    <script type="text/javascript" src="../assets/js/global.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="header">
+        <div class="logo">
+            <a href="/"><img src="../assets/img/logo.png"></a>
+        </div>
+        <div class="tabbar">
+            <ul class="tab_list">
+                <li><a href="">首页</a></li>
+                <li><a href="">师傅风采</a></li>
+                <li><a href="">成为商家</a></li>
+                <li><a href="">新手指引</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">淘宝商城</a></li>
+            </ul>
+        </div>
+        <div class="isLogin_div" onmouseover="showMyCart()" onmouseout="hideMyCart()">
+            <span class="user_name">陈东东</span>
+            <span class="user_logo_span" ><a><img src="../assets/img/user_logo.png"></a></span>
+            <span class="user_dot"><img src="../assets/img/is_login_dot.png"></span>
+            <div class="mycart-rrow"></div>
+            <ul class="mycart-ul">
+                <li><a>个人中心</a></li>
+                <li><a>系统公告</a></li>
+                <li><a>发布需求</a></li>
+                <li><a>订单中心</a></li>
+                <li><a>反馈问题</a></li>
+                <li><a>安全退出</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="wrap">
+    <div class="container">
+        <div class="daohang">
+            <p class="trade_record_dh">
+                <a>首页</a> /
+                <a>发布需求</a>
+            </p>
+        </div>
+        <div class="con">
+            <ul class="conhead">
+                <li><a href="">配送安装</a></li>
+                <li><a href="">配送</a></li>
+                <li><a href="install.html">安装</a></li>
+                <li class="active"><a href="javascript:;">维修</a></li>
+            </ul>
+            <div class="maincon">
+                <div class="coninfo-one">
+                    <div class="one">
+                        <p class="title"><img src="../assets/img/user_center_dot.png" />上门收货地址</p>
+                        <div class="form">
+                            <div class="form-list form-list-3 cl">
+                                <div><label>收货人</label><input type="text" placeholder="输入收货人姓名" /></div>
+                                <div><label>联系电话</label><input type="text" placeholder="输入联系方式" /></div>
+                                <div><label class="area">地区</label>
+                                    <select>
+                                        <option>选择省市区</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-list">
+                                <div><label class="address">详细地址</label><textarea class="textarea" placeholder="请输入详细地址"></textarea></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="two">
+                        <p class="title"><img src="../assets/img/user_center_dot.png" />添加商品信息</p>
+                        <div class="form">
+                            <div class="form-list">
+                                <a href="javascript:;" class="form-a">
+                                    <input type="file" class="form-file" />
+                                    <span class="add">+</span>
+                                    <span class="name">上传商品图片</span>
+                                </a>
+                                <div class="form-btn">从商品库选择</div>
+                            </div>
+                            <div class="form-list form-list-4 cl" id="formList4">
+                                <div class="active"><label><span><span></span></span>补漆</label><input type="text" placeholder="输入维修处数" /></div>
+                                <div><label><span><span></span></span>换皮/布</label><input type="text" placeholder="输入维修处数" /></div>
+                                <div><label><span><span></span></span>碰伤</label><input type="text" placeholder="输入维修处数" /></div>
+                                <div><label><span><span></span></span>填充</label><input type="text" placeholder="输入维修处数" /></div>
+                            </div>
+                            <div class="form-list">
+                                <div><label class="address">备注信息</label><textarea class="textarea" placeholder="请输入备注信息"></textarea></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coninfo-two">
+                    <ul class="cl">
+                        <li class="first"><img src="../assets/img/require_icon.png" />维修</li>
+                        <li class="second">
+                            <p>光是发大幅度发山东省的房顶上</p>
+                            <p>地方大幅度 18056565656</p>
+                        </li>
+                        <li class="third">
+                            <div class="basic">
+                                <p>基本费用</p>
+                                <span>￥215456.00</span>
+                            </div>
+                            <div><a href="">收费标准？</a></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="coninfo-three">
+                    <p>本平台承诺：如需搬楼，7楼以下（包含7楼）免费，7楼以上收费10元/层/立方</p>
+                    <div class="three-btn"><a href="">发布</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="foot">
+    <div class="footer">
+        <div class="docLink">
+            <ul>
+                <li><a href="">常见问题</a>|</li>
+                <li><a href="">用户反馈</a>|</li>
+                <li><a href="">使用帮助</a>|</li>
+                <li><a href="">关于我们</a>|</li>
+                <li><a href="">成为师傅</a></li>
+            </ul>
+        </div>
+        <div class="copyRight">
+            <p>2014@ | 广州网科技有限公司 | 粤ICP备案 140925-3 | 版权声明</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $("#formList4 > div").click(function(){
+        if($(this).hasClass("active")){
+            $(this).removeClass("active");
+            return;
+        }
+        $(this).addClass("active");
+    })
+</script>

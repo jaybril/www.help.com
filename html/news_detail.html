@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="">
     <meta name="description" content="。">
-    <title>选择支付</title>
+    <title>新闻详情</title>
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/other.css">
     <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
@@ -49,61 +49,43 @@
     <div class="daohang">
         <p class="trade_record_dh">
             <a>首页</a> /
-            <a>发布需求</a> /
-            <a>支付</a>
+            <a>服务协议</a>
         </p>
     </div>
-    <div class="pay_top">
-        <div class="item">
-            <div class="left">
-                <img src="../assets/img/require_icon.png">
-                <p>维修</p>
-            </div>
-            <div class="right">
-                <div class="ads">
-                    <span>广东省太原北路躺下街道178号北区仓库</span>
-                    <span>张三 1856522903</span>
-                </div>
-                <div class="price">
-                    <span>基本费用</span>
-                    <span> 收费标注？</span>
-                    <b>￥ 25043.88</b>
-                </div>
-
-            </div>
+    <div class="news_detail_content">
+        <div class="top">
+            <h1>国务院发表关于2015物流运输管理协议</h1>
+            <p class="keywords">
+                <span >Tag标签</span>
+                <span class="tag">交通法</span>
+                <span class="tag">物流</span>
+                <span class="tag">互联网</span>
+                <span class="tag">互联网</span>
+                <span class="tag">互联网</span>
+                <span class="tag">互联网</span>
+                <span class="date">2015/09/19</span>
+            </p>
         </div>
-    </div>
-    <div class="pay_content">
-        <div class="pay_list">
-            <div class="item">
-                <img src="../assets/img/alipay_icon.png">
-                <span class="tips">
-                    <p>支付宝支付</p>
-                    <p>推荐支付宝用户使用</p>
-                </span>
-                <div class="select_radio">
-                    <input type="radio"  checked="checked" name="sport" value="0">
-                    <label class="pay_radio_label"  class="checked" ></label>
-                </div>
-
-            </div>
-            <div class="item">
-                <img src="../assets/img/yue_icon.png">
-                <span class="tips">
-                    <p>余额支付</p>
-                    <p>推荐有余额的用户使用</p>
-                </span>
-                <div class="select_radio">
-                    <span class="pay_yue">余额：<b>9540.32</b> </span>
-                    <input type="radio"  checked="checked" name="sport" value="1">
-                    <label class="pay_radio_label"  class="checked" ></label>
-                </div>
-
-
-            </div>
-            <div class="submit">
-                <a>完成</a>
-            </div>
+        <div class="content">
+            <p>国务院2015年立法工作计划》已经国务院同意，
+                现印发给你们。2015年是全面推进依法治国的开局之年，
+                是全面深化改革的关键之年，
+            </p>
+            <p>
+                也是全面完成“十二五”规划的收官之年，
+                做好政府立法工作意义重大。总的指导思想是：深入贯彻落实党的十八大和十八届二中、三中、
+                四中全会以及中央经济工作会议精神，突出政府立法重点，确保政府立法质量，
+                为全面深化改革和全面依法治国提供制度保障。遵循这一指导思想，
+                结合当前面临的新形势、新任务，现就做好国务院2015年立法工作提出以下意见：
+            </p>
+            <p>
+                治国需要。对实践证明已经比较成熟的改革经验和行之有效的改革举措，
+                要尽快上升为法律法规，巩固改革成果。对不适应改革要求的现行法律法规，
+                要及时予以修改或废止。对实践条件还不成熟、需要先行先试的改革举措，要
+                及时提请有权机关作出授权。能够通过立法解释解决问题的，要及时提请有权机关作出解释，避免频繁修改法律法规。
+                要根据法律法规的立改废情况，及时对有关
+            </p>
+            <img src="../assets/img/news_content.png">
         </div>
     </div>
 </div>
@@ -125,13 +107,3 @@
 </div>
 </body>
 </html>
-<script>
-    $(function() {
-        $('.pay_radio_label').click(function(){
-            var radioId = $(this).attr('name');
-            $('.pay_radio_label').removeClass('checked') && $(this).addClass('checked');
-            $('input[type="radio"]').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
-        });
-        $('.pay_radio_label').eq(0).click();
-    });
-</script>
