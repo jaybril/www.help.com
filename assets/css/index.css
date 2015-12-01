@@ -27,12 +27,13 @@
 }
 .div1 .left .download .yonghu_img{
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 244px;
 }
 .div1 .left .download .yonghu_div{
     margin-left: 25px;
     width: 244px;
+    overflow: hidden;
 }
 .top_qrcode{
     width: 101px;
@@ -41,13 +42,13 @@
 }
 .down_btn{
     width: 120px;
-    height: 35px;
+    height: 32px;
     float: left;;
     margin-top: 10px;
     margin-left: 22px;
 }
 .down_btn img{
-
+    width: 120px;
 }
 .div1 .right{
     position: relative;
@@ -71,15 +72,16 @@
 .div1 .right .userlogo p{
     text-align: center;
     margin-top: 10px;
-    color: rgba(160,160,160,1);
+    color: #666666;
 }
 .login_input{
     width: 194px;
     height: 30px;
     margin-left: 10px;
     font-size: 14px;
-    border: 1px solid #E7E5E5;
+    border: 1px solid #e5e5e5;
     padding-left: 8px;
+    color: #999999;
 }
 .login_form input:last-child{
     margin-top: 10px;
@@ -87,7 +89,7 @@
 .login_btn{
     display: block;
     text-align: center;
-    background-color: rgba(255,90,103,1);
+    background-color: #f74c4c;
     color: #ffffff;
     line-height: 35px;
     width: 206px;
@@ -112,6 +114,7 @@
 .div2{
     width: 100%;
     height: 140px;
+    background-color: #f7f7f7;
 }
 .xuqiu{
     width: 1000px;
@@ -131,10 +134,18 @@
     color: rgba(160,160,160,1);
 }
 .xuqiu .input input{
-    width: 225px;
+    width: 206px;
     height: 30px;
     padding: 5px;
     font-size: 14px;
+    float: left;
+    background-color: #f7f3f0;
+    border: 0;
+}
+.xuqiu .input .pos{
+    display: inline-block;
+    float: left;
+    background-color: #f7f3f0;
 }
 .xiuqiu_btn{
     margin-top: 45px;
@@ -218,8 +229,8 @@
 }
 .top_ti .icon{
     float: left;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height:48px;
 }
 .top_ti .title{
     float: left;
@@ -260,7 +271,7 @@
 }
 .top_ti .more{
     float: right;
-    margin-top: 20px;
+    margin-top: 17px;
     margin-right: 10px;
 }
 .div4 .shifu_list{
@@ -274,6 +285,7 @@
     height: 105px;
     margin-right: 5px;
     float: left;
+    margin-top: 8px;
 }
 .shifu_list .item .shifu_icon{
     width: 100px;
@@ -298,6 +310,7 @@
     vertical-align: bottom;
     margin-right: 5px;
     color: #6F6C6C;
+    font-size: 15px;
 }
 .shifu_list .item .renzheng_icon{
     width: 65px;
@@ -321,14 +334,14 @@
     font-size: 14px;
 }
 .shifu_list .item .content .address{
-    margin-top: 8px;
+    margin-top:5px;
     color: #949393;
-    font-size: 14px;
+    font-size: 12px;
 }
 .shifu_list .item .content .jineng{
-    margin-top: 8px;
+    margin-top: 5px;
     color: #949393;
-    font-size: 14px;
+    font-size: 12px;
 }
 .div4 .yonghu_div {
     width: 270px;
@@ -398,7 +411,7 @@
     position: absolute;
     top:0;
     left: 0;
-    background-color: rgba(3, 3, 3, 0.27);
+    background-color: rgba(133, 126, 126, 0.27)
 }
 .jiameng_btn {
     width: 265px;

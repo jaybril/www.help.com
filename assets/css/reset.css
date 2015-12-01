@@ -2,9 +2,8 @@ body{
     /*width: 1000px;*/
     height: auto;
     margin: 0 auto;
-    font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
-    font-size: 12px;
-    background-color: rgba(245,245,245,1);
+    font: 13px/1.5 "方正兰亭黑",arial,Microsoft YaHei, \5b8b\4f53;
+    background-color:#f5f5f5;
 }
 h1, h2, h3, h4, h5, h6, article, section, div, p {
     margin: 0;
@@ -22,13 +21,13 @@ a{
     text-decoration: none;
 }
 a:link{
-    color: rgba(160,160,160,1);
+    color: #1a1a1a;
 }
 a:hover{
-    color: rgba(160,160,160,1);
+    color:#1a1a1a;
 }
 a:focus{
-    color: rgba(160,160,160,1);
+    color: #1a1a1a;
 }
 .head{
     width: 100%;
@@ -38,7 +37,7 @@ a:focus{
 }
 .header{
     border: solid 1px rgba(233, 233, 233, 1);
-    background-color: #FFFFFF;
+    background-color: #fafafa;
     width: 1000px;
     height: 100px;
     margin: 0 auto;
@@ -79,7 +78,7 @@ a:focus{
 }
 .foot{
     width: 100%;
-    background-color: rgba(255,90,103,1);
+    background-color: #ee4b4b;
     height: 100px;
     margin-top: 35px;
 }
@@ -185,7 +184,7 @@ a:focus{
     width: 1002px;
     height: 65px;;
     margin: 0 auto;
-    /*background-color: rgba(233,233,233,1);*/
+    background-color:#f5f5f5;
 }
 .daohang p{
     height: 25px;

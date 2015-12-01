@@ -120,13 +120,13 @@
     padding-bottom: 10px;
     font-size: 20px;
     /*font-weight: 600;*/
-    color: #6F6767;
+    color: #1a1a1a;
 
 }
 .agreement_content .content{
     padding-bottom: 20px;
     font-size: 16px;
-    color: #6F6767;
+    color: #989898;
 }
 /*服务协议页面-end*/
 
@@ -149,9 +149,9 @@
 .app_content .title span{
     display: inline-block;
     padding: 10px;
-    background-color: #D72D03;
+    background-color: #d0312a;
     border-radius: 10px;
-    color: white;
+    color: #f3d5d5;
 }
  .app_download{
      /*width: 50%;*/
@@ -386,6 +386,7 @@
     float: right;
     margin-right: 10px;
     margin-top: 30px;
+    width: 190px;
 }
 .pay_content .pay_list .item .pay_yue{
     font-size: 18px;
@@ -707,7 +708,7 @@
     font-size: 14px;
 }
 .shifu_detail_content .left .middle ul li .p1 img{
-    vertical-align: text-top;
+    /*vertical-align: text-top;*/
 }
 .shifu_detail_content .left .middle ul li .p1 .date{
     float: right;
@@ -728,8 +729,295 @@
 }
 .shifu_detail_content .right{
     width: 350px;
-    height: 200px;
+    /*height: 200px;*/
     float: left;
-    background-color: yellow;
+    background-color: rgba(255,255,234,1);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.shifu_detail_content .right table{
+    margin: 0 auto;
+    width: 260px;
+    margin-top: 20px;
+}
+.shifu_detail_content .right table tr .td1{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 10px;
+    width: 75px;
+}
+.shifu_detail_content .right table tr .td2{
+    text-align: left;
+    font-size: 14px;
+    padding-top: 8px;
 }
 /*师傅详情-end*/
+
+/*商家申请-start*/
+.apply_content{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.apply_content img{
+    width: 100%;
+}
+.apply_content p{
+    padding: 30px;
+}
+.apply_content .apply_btn {
+    width: 270px;
+    height: 68px;
+    /* line-height: 88px; */
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.apply_content .apply_btn a {
+    display: block;
+    background-color: #f64444;
+    text-align: center;
+    height: 66px;
+    border-radius: 33px;
+    line-height: 66px;
+    color: #fff;
+    font-size: 16px;
+}
+.commodity {
+    background-color: #fff;
+    border-radius: 6px;
+    position: fixed;
+    width: 800px;
+    margin-left: -400px;
+    left: 50%;
+    height: 520px;
+    top: 50%;
+    margin-top: -260px;
+    display: none;
+}
+.commodityed {
+    width: 500px;
+    margin-left: -250px;
+    height: 564px;
+    margin-top: -282px;
+}
+.commodityed .titled {
+    padding: 0 30px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    position: relative;
+}
+
+.commodityed .form {
+    padding: 18px;
+    font-size: 14px;
+}
+.form .form-list {
+    margin-bottom: 15px;
+}
+.commodityed .titled .close {
+    position: absolute;
+    right: 30px;
+}
+.commodityed .form label {
+    display: inline-block;
+    width: 70px;
+}
+.commodityed .form input {
+    height: 38px;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+.commodityed .form select {
+    width: 178px;
+    height: 38px;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+}
+.commodity .btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #f64444;
+    color: #fff;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.commodityed .form .file {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #ddd;
+    line-height: 54px;
+    font-size: 30px;
+    color: #ddd;
+}
+.form .file .comfile {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.share {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+}
+/*商家申请-end*/
+
+
+/*注册*/
+.formcon{
+    padding: 60px 0;
+    background-color: #fff;
+}
+.formcon .formbd{
+    width: 420px;
+    margin: auto;
+}
+.formbd .form-list{
+    border: 1px solid #ccc;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.formbd .form-list .td{
+    float: left;
+    height: 48px;
+}
+.formbd .form-list .imgname{
+    width: 60px;
+    text-align: center;
+    background-color: #ccc;
+    line-height: 48px;
+}
+.formbd .form-list .formbd-text{
+    border: 0;
+    background-color: #fff;
+    padding: 0 10px;
+    width: 338px;
+    height: 46px;
+    line-height: 46px;
+    color: #a9a9a9;
+    font-size: 16px;
+}
+.formbd .form-listed{
+    border: 0;
+}
+.formbd .form-listed > .tr{
+    float: left;
+}
+.formbd .form-listed > .trfirst{
+    border: 1px solid #ccc;
+    width: 290px;
+}
+.form-listed > .trfirst > div{
+    float: left;
+}
+.formbd .form-list .formbd-code{
+    width: 208px;
+}
+.formbd .form-listed .formbd-codebtn{
+    width: 120px;
+    margin-left: 8px;
+    background-color: #d0312a;
+    border: 0;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-size: 16px;
+}
+.formbd .form-listag{
+    border: 0;
+    font-size: 16px;
+    line-height: 48px;
+    color: #333;
+}
+.formbd .form-listag .round{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #d0312a;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.formbd .form-listag .round > span{
+    background-color: #d0312a;
+    height: 17px;
+    width: 17px;
+    display: inline-block;
+    border-radius: 50%;
+    float: left;
+}
+.formbd .formbd-btn{
+    width: 100%;
+    background-color: #d0312a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    border: 0;
+}
+/*注册*/
+
+/*关于我们*/
+.aboutus .head-img{
+    height: 260px;
+}
+.aboutus .head-img img{
+    width: 100%;
+    height: 260px;
+}
+.aboutus .newscon{
+    padding: 40px 70px;
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+}
+.aboutus .newscon .wz{
+    margin-bottom: 10px;
+}
+.newscon .footul li{
+    float: left;
+    border: 1px solid #A9A9A9;
+    height: 116px;
+    width: 205px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.newscon .footul li:nth-of-type(4n){
+    margin-right: 0;
+}
+.newscon .footul li img{
+    height: 116px;
+    width: 205px;
+}
+/*关于我们*/
+.container {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
