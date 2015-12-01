@@ -354,7 +354,7 @@
 .order_center_search input:last-child{
     height: 42px;
     width: 80px;
-    border: 0;
+    /* border: 0; */
     /* margin-left: -4px; */
     float: left;
     padding-left: -8px;
@@ -364,6 +364,7 @@
     font-size: 17px;
     cursor: pointer;
     color: white;
+    border: solid 1px rgba(227,0,15,1);
     /* line-height: 35px; */
 }
 .order_center_content{
@@ -470,4 +471,53 @@
     border-radius: 10px;;
     line-height: 40px;;
     border-radius: 40px;
+}
+.commodity {
+    background-color: #fff;
+    border-radius: 6px;
+    position: fixed;
+    width: 800px;
+    margin-left: -400px;
+    left: 50%;
+    height: 300px;
+    top: 50%;
+    margin-top: -260px;
+    display: none;
+}
+.commodityed {
+    width: 500px;
+    margin-left: -250px;
+    height: 300px;
+    margin-top: -282px;
+}
+.commodityed .titled {
+    padding: 0 30px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    position: relative;
+}
+
+.form .form-list {
+    margin-bottom: 15px;
+}
+.commodityed .titled .close {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+.share {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+}
+.add_price_active{
+    border: solid 1px red !important;
+    background-color: red !important;
+    color: white !important;
 }

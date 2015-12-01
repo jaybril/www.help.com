@@ -15,15 +15,15 @@
 <div class="head">
     <div class="header">
         <div class="logo">
-            <a href="/"><img src="../assets/img/logo.png"></a>
+            <a href="index.html"><img src="../assets/img/logo.png"></a>
         </div>
         <div class="tabbar">
             <ul class="tab_list">
-                <li><a href="">首页</a></li>
-                <li><a href="">师傅风采</a></li>
-                <li><a href="">成为商家</a></li>
-                <li><a href="">新手指引</a></li>
-                <li><a href="">关于我们</a></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="shifu.html">师傅风采</a></li>
+                <li><a href="apply.html">成为商家</a></li>
+                <li><a href="question.html">新手指引</a></li>
+                <li><a href="about.html">关于我们</a></li>
                 <li><a href="">淘宝商城</a></li>
             </ul>
         </div>
@@ -33,11 +33,11 @@
             <span class="user_dot"><img src="../assets/img/is_login_dot.png"></span>
             <div class="mycart-rrow"></div>
             <ul class="mycart-ul">
-                <li><a>个人中心</a></li>
-                <li><a>系统公告</a></li>
-                <li><a>发布需求</a></li>
-                <li><a>订单中心</a></li>
-                <li><a>反馈问题</a></li>
+                <li><a href="user_center.html">个人中心</a></li>
+                <li><a href="news.html">系统公告</a></li>
+                <li><a href="require_anzhuang.html">发布需求</a></li>
+                <li><a href="order_center.html">订单中心</a></li>
+                <li><a href="feedback.html">反馈问题</a></li>
                 <li><a>安全退出</a></li>
             </ul>
         </div>
@@ -45,18 +45,6 @@
     </div>
 </div>
 <div class="wrap">
-    <!--<div class="change_order_price">-->
-        <!--<div class="price_list">-->
-            <!--<a>+10元</a>-->
-            <!--<a>+20元</a>-->
-            <!--<a>+30元</a>-->
-            <!--<a>+40元</a>-->
-            <!--<a>+50元</a>-->
-        <!--</div>-->
-        <!--<div class="change_submit">-->
-            <!--<a>确认</a>-->
-        <!--</div>-->
-    <!--</div>-->
     <div class="daohang">
         <p class="trade_record_dh">
             <a>首页</a> /
@@ -91,7 +79,7 @@
                     <p>张三  15072622222</p>
                 </span>
                 <span class="order_status">
-                    <span >改价</span>
+                    <span onclick="changePrice()" >改价</span>
                     <span onclick="cancelOrder()" >取消订单</span>
                 </span>
             </div>
@@ -107,7 +95,7 @@
                     <p>张三  15072622222</p>
                 </span>
                 <span class="order_status">
-                    <span onclick="orderCenterTab()" >改价</span>
+                    <span onclick="changePrice()"  >改价</span>
                     <span onclick="cancelOrder()" >取消订单</span>
                 </span>
             </div>
@@ -167,7 +155,7 @@
                     <p>张三  15072622222</p>
                 </span>
                 <span class="order_status">
-                    <span >改价</span>
+                    <span onclick="changePrice()" >改价</span>
                     <span onclick="cancelOrder()" >取消订单</span>
                 </span>
             </div>
@@ -220,7 +208,22 @@
         </div>
     </div>
 </div>
-
+<div class="share" id="share"></div>
+<div class="commodity commodityed" id="commodity">
+    <p class="titled">增加订单的费用，会更快吸引师傅抢单哦<span class="close" id="close">×</span></p>
+    <div class="change_order_price">
+    <div class="price_list" id="changePrice">
+    <a>+10元</a>
+    <a>+20元</a>
+    <a>+30元</a>
+    <a>+40元</a>
+    <a>+50元</a>
+    </div>
+    <div class="change_submit">
+    <a>确认</a>
+    </div>
+    </div>
+</div>
 </body>
 </html>
 <script>
@@ -234,4 +237,22 @@
         });
         $("#order_center_tab ul li").eq(0).click();
     });
+var changePrice=function(){
+    $("#share").show();
+    $("#commodity").show();
+}
+    $("#share").click(function(){
+        $("#share").hide();
+        $("#commodity").hide();
+    });
+    $("#close").click(function(){
+        $("#share").hide();
+        $("#commodity").hide();
+    });
+$("#changePrice a").each(function(){
+    $(this).click(function(){
+        $("#changePrice a").removeClass('add_price_active');
+        $(this).addClass('add_price_active');
+    });
+});
 </script>

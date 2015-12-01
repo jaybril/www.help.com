@@ -15,15 +15,15 @@
 <div class="head">
     <div class="header">
         <div class="logo">
-            <a href="/"><img src="../assets/img/logo.png"></a>
+            <a href="index.html"><img src="../assets/img/logo.png"></a>
         </div>
         <div class="tabbar">
             <ul class="tab_list">
-                <li><a href="">首页</a></li>
-                <li><a href="">师傅风采</a></li>
-                <li><a href="">成为商家</a></li>
-                <li><a href="">新手指引</a></li>
-                <li><a href="">关于我们</a></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="shifu.html">师傅风采</a></li>
+                <li><a href="apply.html">成为商家</a></li>
+                <li><a href="question.html">新手指引</a></li>
+                <li><a href="about.html">关于我们</a></li>
                 <li><a href="">淘宝商城</a></li>
             </ul>
         </div>
@@ -33,18 +33,17 @@
             <span class="user_dot"><img src="../assets/img/is_login_dot.png"></span>
             <div class="mycart-rrow"></div>
             <ul class="mycart-ul">
-                    <li><a>个人中心</a></li>
-                    <li><a>系统公告</a></li>
-                    <li><a>发布需求</a></li>
-                    <li><a>订单中心</a></li>
-                    <li><a>反馈问题</a></li>
-                    <li><a>安全退出</a></li>
+                <li><a href="user_center.html">个人中心</a></li>
+                <li><a href="news.html">系统公告</a></li>
+                <li><a href="require_anzhuang.html">发布需求</a></li>
+                <li><a href="order_center.html">订单中心</a></li>
+                <li><a href="feedback.html">反馈问题</a></li>
+                <li><a>安全退出</a></li>
             </ul>
         </div>
 
     </div>
 </div>
-<!--<div class="shade"></div>-->
 <div class="wrap">
     <div class="daohang">
         <p class="user_center_dh">
@@ -56,12 +55,12 @@
         <span class="user_top_logo_span"><a><img src="../assets/img/user_logo.png"></a></span>
         <div class="message">
             <p>欢迎回来! 亲爱的，吉米</p>
-            <p>您的积分：8888 <a>查询交易记录</a> </p>
+            <p>您的积分：8888 <a href="trade_record.html">查询交易记录</a> </p>
         </div>
         <div class="wallet">
             <a class="qb">我的钱包</a>
             <a class="ye">8886.68 元</a>
-            <a class="cz">+ 充值</a>
+            <a class="cz" href="pay.html">+ 充值</a>
 
         </div>
     </div>
@@ -71,7 +70,7 @@
                 <p>
                     <a>选择收货地址</a>
                 </p>
-                <span>新增收货地址</span>
+                <span >新增收货地址</span>
             </div>
             <div class="list">
                <div class="item">
@@ -104,7 +103,7 @@
                 <p>
                     <a>常用商品库</a>
                 </p>
-                <span>新增商品信息</span>
+                <span id="addgoods">新增商品信息</span>
             </div>
             <div class="shangpinku_content">
                 <div class="list">
@@ -187,5 +186,54 @@
         </div>
     </div>
 </div>
+<div class="share" id="share"></div>
+<div class="commodity commodityed" id="commodity">
+    <p class="titled">新增商品<span class="close" id="close">×</span></p>
+    <div class="form">
+        <div class="form-list">
+            <label>一级类别</label>
+            <select>
+                <option>请选择商品类别</option>
+            </select>
+        </div>
+        <div class="form-list">
+            <label>二级类别</label>
+            <select>
+                <option>请选择商品类别</option>
+            </select>
+        </div>
+        <div class="form-list">
+            <label>商品名称</label>
+            <input type="text" />
+        </div>
+        <div class="form-list">
+            <label>商品体积</label>
+            <input type="text" />
+        </div>
+        <div class="form-list">
+            <label>商品件数</label>
+            <input type="text" />
+        </div>
+        <div class="form-list">
+            <label>照片</label>
+            <span class="file"><input type="file" class="comfile" />+</span>
+        </div>
+    </div>
+    <a href="" class="btn">保存</a>
+</div>
 </body>
 </html>
+<script>
+    $("#addgoods").click(function(){
+        $("#share").show();
+        $("#commodity").show();
+    });
+    $("#share").click(function(){
+        $("#share").hide();
+        $("#commodity").hide();
+    });
+    $("#close").click(function(){
+        $("#share").hide();
+        $("#commodity").hide();
+    });
+</script>
