@@ -192,6 +192,31 @@
 .down_btn img{
 
 }
+.app_content .app_top{
+    width: 280px;
+    height: 38px;
+    /*border: solid 1px #924f4d;*/
+    line-height: 40px;
+    font-size: 20px;;
+    margin-bottom: 10px;
+}
+.app_content .app_top  span{
+    display: inline-block;
+    border-bottom: solid 1px white;
+    width: 90px;
+    height: 1px;;
+    float: left;
+    margin-top: 19px;;
+}
+.app_content .app_top  span:last-child{
+    float: right;
+}
+.app_content .app_top  b{
+    float: left;
+    margin-left: 20px;;
+    color: white;
+    /*margin-right: 20px;;*/
+}
 /*APP介绍页面-end*/
 
 /*用户反馈-start*/
@@ -206,11 +231,13 @@
     width: 600px;
     height: 265px;
     margin: 0 auto;
-    border: solid 1px #DDD2D2;
+    border: solid 1px #C4C4C4;
     margin-top: 35px;
     margin-bottom: 35px;
     font-size: 16px;
     padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
 }
 .feedback_content  .submit {
     margin: 0 auto;
@@ -675,9 +702,10 @@
 .shifu_detail_content .left .top span{
     font-size: 16px;
     margin-left: 10px;
+    color: #1a1a1a;
 }
 .shifu_detail_content .left .top span b{
-    color: red;
+    color: #ff3a3e;
 }
 .shifu_detail_content .left .top a{
     display: inline-block;
@@ -685,7 +713,7 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
-    background-color: red;
+    background-color: #d0312a;
     color: white;
     float: right;
     margin-left: 20px;
@@ -706,17 +734,19 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 14px;
+    color: #1a1a1a;
 }
 .shifu_detail_content .left .middle ul li .p1 img{
     /*vertical-align: text-top;*/
 }
 .shifu_detail_content .left .middle ul li .p1 .date{
     float: right;
+    color: #999999;
 }
 .shifu_detail_content .left .middle ul li .p2{
     margin-bottom: 15px;
     font-size: 14px;
-    color: #8D8D8D;
+    color: #666666;
 }
 .shifu_detail_content .left .bottom{
     width: 555px;
@@ -747,11 +777,13 @@
     padding-top: 8px;
     padding-right: 10px;
     width: 75px;
+    color: #333333;
 }
 .shifu_detail_content .right table tr .td2{
     text-align: left;
     font-size: 14px;
     padding-top: 8px;
+    color: #666666;
 }
 /*师傅详情-end*/
 
@@ -848,9 +880,9 @@
     background-color: #f64444;
     color: #fff;
     text-align: center;
-    width: 240px;
-    height: 60px;
-    line-height: 60px;
+    width: 301px;
+    height: 45px;
+    line-height: 45px;
     border-radius: 30px;
     font-size: 16px;
 }
@@ -908,6 +940,10 @@
     background-color: #ccc;
     line-height: 48px;
 }
+.formbd .form-list .imgname img{
+    display: inline-block;
+    vertical-align: middle;
+}
 .formbd .form-list .formbd-text{
     border: 0;
     background-color: #fff;
@@ -951,24 +987,26 @@
     color: #333;
 }
 .formbd .form-listag .round{
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: 1px solid #d0312a;
     text-align: center;
     display: inline-block;
-    padding: 1.5px;
+    /* padding: 1.5px; */
     float: left;
     margin-top: 13px;
     margin-right: 10px;
 }
 .formbd .form-listag .round > span{
     background-color: #d0312a;
-    height: 17px;
-    width: 17px;
+    height: 16px;
+    width: 16px;
     display: inline-block;
     border-radius: 50%;
     float: left;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 .formbd .formbd-btn{
     width: 100%;

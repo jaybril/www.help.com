@@ -73,7 +73,7 @@ a:focus{
 }
 .tab_list li a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "宋体", Tahoma, serif;
 }
 .foot{
@@ -102,6 +102,11 @@ a:focus{
     float: left;
     width: 149px;
     color: #ffffff;
+    border-right: solid 1px #ededed;
+    text-align: center;
+}
+.footer ul li:last-child{
+    border-right: 0;
 }
 .footer ul li a{
     padding-left: 25px;

@@ -15,33 +15,7 @@ var hideMyCart=function(){
 }
 
 
-var orderCenterTab=function(){
-    layer.tab({
-        area:['600px','300px'],
-        tab:[
-            {
-            title:'全部订单',
-            content:'全部订单'
-            },
-            {
-                title:'抢单中',
-                content:'抢单中'
-            },
-            {
-                title:'进行中',
-                content:'进行中'
-            },
-            {
-                title:'已完成',
-                content:'已完成'
-            },
-            {
-                title:'问题件',
-                content:'问题件'
-            }
-        ]
-    });
-}
+
 
 /*取消订单-btn*/
 var cancelOrder=function(){
